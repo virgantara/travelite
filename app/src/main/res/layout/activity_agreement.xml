@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/size_16"
+    android:paddingLeft="@dimen/size_16"
+    android:paddingRight="@dimen/size_16"
+    android:paddingTop="@dimen/size_16"
+    android:orientation="vertical"
+    android:weightSum="6"
+    android:background="@color/indigo_500"
+    tools:context="com.keltech.travel.AgreementActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/size_8"
+            android:text="@string/car"
+            android:textSize="@dimen/text_32"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_32"
+            android:padding="@dimen/size_8"
+            android:text="@string/rate"
+            android:textSize="@dimen/text_24"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/rate_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/size_16"
+            android:text="@string/rate_content_default"
+            android:textSize="@dimen/text_18"
+            android:textColor="@color/indigo_100"
+            android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="2">
+
+        <Button
+            android:layout_above="@+id/cancelBtn"
+            android:id="@+id/okBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_48"
+            android:layout_marginBottom="@dimen/size_16"
+            android:text="@string/ok"
+            android:textSize="@dimen/text_24"
+            android:background="@color/pink_200"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:layout_alignParentBottom="true"
+            android:id="@+id/cancelBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_48"
+            android:text="@string/cancel"
+            android:textSize="@dimen/text_24"
+            android:background="@color/pink_100"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

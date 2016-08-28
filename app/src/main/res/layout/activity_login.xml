@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/size_16"
+    android:paddingLeft="@dimen/size_16"
+    android:paddingRight="@dimen/size_16"
+    android:paddingTop="@dimen/size_16"
+    android:background="@color/indigo_500"
+    tools:context="com.keltech.travel.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/size_4"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_8"
+            android:paddingTop="@dimen/size_4"
+            android:layout_marginLeft="@dimen/size_8"
+            android:paddingLeft="@dimen/size_4"
+            android:layout_marginRight="@dimen/size_8"
+            android:paddingRight="@dimen/size_4"
+            android:layout_marginBottom="@dimen/size_4"
+            android:gravity="center_horizontal"
+            android:text="@string/welcome"
+            android:textSize="@dimen/text_28"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_8"
+            android:paddingLeft="@dimen/size_4"
+            android:layout_marginRight="@dimen/size_8"
+            android:paddingRight="@dimen/size_4"
+            android:layout_marginBottom="@dimen/size_4"
+            android:gravity="center_horizontal"
+            android:text="@string/tagline1"
+            android:textSize="@dimen/text_14"
+            android:textStyle="italic"
+            android:textColor="@color/indigo_100"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_4"
+            android:paddingTop="@dimen/size_4"
+            android:layout_marginLeft="@dimen/size_8"
+            android:paddingLeft="@dimen/size_4"
+            android:layout_marginRight="@dimen/size_8"
+            android:paddingRight="@dimen/size_4"
+            android:layout_marginBottom="@dimen/size_4"
+            android:gravity="center_horizontal"
+            android:text="@string/tagline2"
+            android:textSize="@dimen/text_28"
+            android:textStyle="italic|bold"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/signInBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_48"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/size_48"
+            android:layout_marginLeft="@dimen/size_32"
+            android:layout_marginRight="@dimen/size_32"
+            android:layout_marginBottom="@dimen/size_8"
+            android:paddingBottom="@dimen/size_8"
+            android:text="@string/sign_in"
+            android:textSize="@dimen/text_22"
+            android:textStyle="bold"
+            android:background="@color/pink_200"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/newHere"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_8"
+            android:paddingLeft="@dimen/size_4"
+            android:layout_marginRight="@dimen/size_8"
+            android:paddingRight="@dimen/size_4"
+            android:layout_marginBottom="@dimen/size_4"
+            android:paddingBottom="@dimen/size_4"
+            android:gravity="center_horizontal"
+            android:text="@string/new_here"
+            android:textColor="@color/indigo_100"/>
+
+        <TextView
+            android:id="@+id/forgotPassword"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_8"
+            android:paddingLeft="@dimen/size_4"
+            android:layout_marginRight="@dimen/size_8"
+            android:paddingRight="@dimen/size_4"
+            android:layout_marginBottom="@dimen/size_8"
+            android:paddingBottom="@dimen/size_4"
+            android:gravity="center_horizontal"
+            android:text="@string/forgot_password"
+            android:textColor="@color/indigo_100"/>
+
+    </LinearLayout>
+
+</LinearLayout>

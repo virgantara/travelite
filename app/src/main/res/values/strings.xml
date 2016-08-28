@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Travel Mockup</string>
+
+    <!-- Login Activity -->
+    <string name="welcome">Welcome to myKediri</string>
+    <string name="tagline1">Easy way to city transfer service</string>
+    <string name="tagline2">Connecting us all</string>
+
+    <!-- Common Button -->
+    <string name="sign_up">SIGN UP</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="new_here">New Here? Sign Up</string>
+    <string name="forgot_password">Forgot Password?</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="be_a_driver">Be a Driver</string>
+    <string name="order">ORDER</string>
+    <string name="pick_up_here">PICK UP HERE</string>
+
+    <!-- Sign Up Form -->
+    <string name="name">Your Name</string>
+    <string name="email">myKediri@mykediri.com</string>
+    <string name="mobile">081111111111</string>
+
+    <!-- Car or Bike Activity -->
+    <string name="car">Car</string>
+    <string name="bike">Bike</string>
+
+    <!-- Main Activity -->
+    <string name="getTaxi">Get a Taxi</string>
+    <string name="getBike">Get a Bike</string>
+    <string name="becomeDriver">Become a Driver</string>
+
+    <!-- Agreement -->
+    <string name="rate">Rate Agreement</string>
+    <string name="rate_content_default">Rp. 50.000,00 for the first 10Km than Rp. 5.000,00/Km</string>
+    <string name="rate_content_car">Rp. 25.000,00 for the first 10Km than Rp. 3.000,00/Km</string>
+    <string name="rate_content_bike">Rp. 10.000,00 for the first 10Km than Rp. 1.500,00/Km</string>
+
+    <!-- Receipe -->
+    <string name="arrive">Arrive in Destination</string>
+    <string name="detail">Detail</string>
+    <string name="distance">Distance : 80Km</string>
+    <string name="fee">Fee : Rp. 50.000,00</string>
+    <string name="comments">Tell us about your journey with us . . .</string>
+    <string name="submit">SUBMIT</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyC01tW8XpwtqjtSU7pb61Tk8ET7HSfjZ6w</string>
+    <string name="thank">TERIMA KASIH</string>
+    <string name="rincian">RINCIAN TAGIHAN</string>
+    <string name="end_driving">PERJALANAN SELESAI</string>
+    <string name="kritik">KRITIK DAN SARAN</string>
+    <string name="jarak">JARAK : </string>
+    <string name="total">TOTAL : </string>
+    <string name="kosong">-</string>
+</resources>

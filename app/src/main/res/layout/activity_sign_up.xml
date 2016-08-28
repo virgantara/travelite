@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/size_16"
+    android:paddingLeft="@dimen/size_16"
+    android:paddingRight="@dimen/size_16"
+    android:paddingTop="@dimen/size_16"
+    android:background="@color/indigo_500"
+    tools:context="com.keltech.travel.SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_48"
+            android:layout_marginBottom="@dimen/size_8"
+            android:hint="@string/name"
+            android:textColor="@color/pink_200" />
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_48"
+            android:layout_marginBottom="@dimen/size_8"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/pink_200" />
+
+        <EditText
+            android:id="@+id/editMobile"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_48"
+            android:layout_marginBottom="@dimen/size_8"
+            android:hint="@string/mobile"
+            android:inputType="phone"
+            android:textColor="@color/pink_200" />
+
+        <Button
+            android:id="@+id/signUpBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_48"
+            android:layout_marginTop="@dimen/size_48"
+            android:text="@string/sign_up"
+            android:background="@color/pink_200"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+</LinearLayout>
